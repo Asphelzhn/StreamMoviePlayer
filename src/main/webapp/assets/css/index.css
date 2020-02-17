@@ -1,0 +1,179 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+
+body {
+	background: #333 url(../images/1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*opacity: 1.0;*/
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+a, a:hover {
+	color: #ff8;	
+}
+
+/* 保证footer在页面底部而且居中*/
+footer {
+    padding: 0 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+header {
+    padding: 0 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+main {
+	margin-top: 140px;
+	padding: 100px 0 100px;
+	position: relative;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+
+.main-2 {
+	margin-top: 70px;
+	position: relative;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+.overlay {
+	background-color: #111;
+	opacity: .3;
+	/* position: absolute; */
+	position: fixed;
+	-webkit-transform: translateZ(0);
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.my-navbar {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0 none;
+}
+
+
+.my-navbar .navbar-brand {
+	/*font-family: 'Catamaran', sans-serif;*/
+	color: #fff !important;
+	font-size: 30px;
+	margin-top: 19px;
+	font-weight: 700;
+	transition: all 0.4s ease 0s;
+	letter-spacing: -1px;
+	padding: 22px 0 0;
+	line-height: 0;
+}
+
+.my-navbar .navbar-toggle {
+	margin-top: 19px;
+}
+
+.my-navbar .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.my-navbar-menu {
+	font-family: "Microsoft YaHei", sans-serif;
+	margin-top: 19px;
+	font-size: 14px;
+	font-weight: 550;
+	transition: all 0.4s ease 0s;
+	letter-spacing: -1px;
+	line-height: 0;
+}
+
+.my-navbar .my-navbar-menu>li>a {
+	color: #fff !important;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.my-navbar .my-navbar-menu>li>a:hover, .my-navbar .my-navbar-menu>li>a:hover,
+	.my-navbar .my-navbar-menu>li>a:focus {
+	color: #ff8 !important;
+}
+
+.btn-2 {
+	letter-spacing: 0;
+}
+
+.btn-2:hover, .btn-2:active {
+	letter-spacing: 5px;
+}
+
+.btn-2:after, .btn-2:before {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 1px solid rgba(255, 255, 255, 0);
+	bottom: 0px;
+	content: " ";
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transition: all 280ms ease-in-out;
+	transition: all 280ms ease-in-out;
+	width: 0;
+}
+
+.btn-2:hover:after, .btn-2:hover:before {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-color: #fff;
+	-webkit-transition: width 350ms ease-in-out;
+	transition: width 350ms ease-in-out;
+	width: 70%;
+}
+
+.btn-2:hover:before {
+	bottom: auto;
+	top: 0;
+	width: 70%;
+}
+
+.my-btn {
+	border-radius: 3px;
+	letter-spacing: 1px;
+	transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+}
+
+.my-btn-border {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.my-btn-border:hover, .my-btn-border:active, .my-btn-border:focus {
+	color: #a8a8a8;
+}
+
+.my-btn-full {
+	color: #18f;
+	background-color: #ff8;
+	border: 1px solid #fff;
+}
+
+.my-btn-full:hover, .my-btn-full:active, .my-btn-full:focus {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+}

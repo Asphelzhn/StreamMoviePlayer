@@ -1,0 +1,18 @@
+body { font-family: "Helvetica Neue"; }
+.container {margin: 0 auto;width: 90%;padding: 0 5% 20px 5%;max-width: 960px;}
+
+a { text-decoration: none;color: #4988C6; }
+/*p, ul {color: #444;}*/
+h1 span {/*color: #ddd;*/font-size: 26px;}
+
+.title {font-weight: 800;font-size: 16px;text-transform: uppercase;padding: 15px 0;display: block;}
+pre {font-family: "Microsoft YaHei";background-color: #fafafa;padding: 20px;overflow: auto;border: 1px solid #f1f1f1;color: #000;}
+.note {color: #999;font-size: 14px;}
+
+
+table {width: 100%;text-align: center;border: 0;border-collapse: collapse;border-spacing: 0;font-size: 14px;}
+table td, table th {padding: 10px;margin: 0;}
+table thead {background-color: #bbb;color: #000000;font-weight: 600; font-size: 16px;}
+table tbody tr td{border-bottom: 1px solid #eee; color:#fff;}
+table tbody tr:hover td{background-color: #eee;color: #494A5F;}
+table img {max-width: 100px;}
